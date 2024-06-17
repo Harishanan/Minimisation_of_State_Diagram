@@ -35,7 +35,7 @@ Likewise, described in state table and state reduction part, this processing has
 <li> Then, the user must enter the states, such as the next state and output state, when x is 0 and 1 in order.</li>
 </ol>
 
-Therefore, as shown in Figure 6, C++ accepts the number of states in integer data type n variable. After, to save the elements, it uses a string array name a[10] variable. The array can use a maximum store of ten states in it.
+Therefore, as shown in Figure 5, C++ accepts the number of states in integer data type n variable. After, to save the elements, it uses a string array name a[10] variable. The array can use a maximum store of ten states in it.
 
 Now, C++ must start removing duplicating elements and replacing the duplicating elements in the array. It has to happen loop until it gets the minimised state table. Therefore, a loop function will be used here, such as do while loop and for loop. Moreover, a for loop function is used to replace duplicate elements with existing elements. In order, to change state ‘g’ into ‘e’ and state ‘f’ into ‘d’ in the above table.
 
@@ -53,4 +53,6 @@ Figure 7 is the continuation of figure 6 while loop. Next, here according to the
 ![print minimised state table](prinitminimisestate.png)
 <div style="text-align: center;" markdown="1"> Figure 8: Printing the minimised state table</div> <br>
 
-The Figure 8 coding will print the last minimised state table.
+The Figure 8 coding will print the last minimised state table.<br>
+
+
