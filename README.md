@@ -55,4 +55,13 @@ Figure 7 is the continuation of figure 6 while loop. Next, here according to the
 
 The Figure 8 coding will print the last minimised state table.<br>
 
+## 3. Results
 
+C++ programming will ask the user to enter the number of states needed to print. According to the state table requirement sheet, there are seven rows. Therefore, 7 is entered. Next, it asks to enter the states in each row. Then, the state table’s next state and output state will be entered. After, it displays the minimised state table using the discussions under the C++ programming heading. It eliminates the two duplicating rows such as (g f 0 1) and (a f 0 1). Then, these rows’ present states g and f are then replaced with states e and d. The results are shown in the below Figure 9.
+
+![Outputs from the C++ code](results.png)
+<div style="text-align: center;" markdown="1"> Figure 9: Outputs from the C++ code</div> <br>
+
+## 4. Conclusion
+
+In conclusion, the problems in the minimisation process in C++ are storing the elements, assigning the present state for the stored elements, finding the duplicate elements, replacing the duplicate elements’ present state and doing the process until the minimisation is fulfilled. Therefore, respectively creating the array, using ASCII code, using for and while loop and if else conditions and do while loop solutions are used.
